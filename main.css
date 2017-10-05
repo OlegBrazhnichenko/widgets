@@ -1,0 +1,60 @@
+.dashboard{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+}
+.centered{
+    margin: 0 auto;
+    width: 800px;
+}
+.widget{
+    position: absolute;
+    border: 1px solid #e8e8e8;
+}
+
+.widget img {
+    width: 100%;
+    height: 100%;
+}
+
+.new {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 5px 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #e8e8e8;
+}
+
+.btn {
+    background: transparent;
+    outline: none;
+}
+
+.btn-create {
+    background: #e8e8e8;
+    border: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #737373;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: arial, sans-serif;
+}
+
+.btn-create:hover {
+
+    background: #b2bff1;
+
+    color: #fffafa;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
